@@ -1,5 +1,6 @@
 # Credit Card Fraud Detection
 Project Summary: To use machine learning models to detect credit card fraud cases from various transaction details. The dataset used in this project is openly available on github [here](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
 Usually feature selection is done before fitting the model but here we have selected the model first and applied feature selection on the model which provides best results when all the features are selected. There are 2 reasons behind it - 
 1. Due to privacy issues the names of the columns are unknown. They are numbered from V1 to V28.
 2. Forward selection and Backward elimination methods of feature selection were ineffective.
